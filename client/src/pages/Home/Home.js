@@ -30,8 +30,8 @@ const Home = () => {
               <div className="home-buttons">
                 <a
                   className="btn btn-cv"
-                  href="/Chaitanya_Resume.pdf"
-                  download="Chaitanya_Resume.pdf"
+                  href="/Chaiitanya.pdf"
+                  download="Chaiitanya_Resume.pdf"
                 >
                   My Resume
                 </a>
