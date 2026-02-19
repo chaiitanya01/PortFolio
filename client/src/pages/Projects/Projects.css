@@ -1,0 +1,122 @@
+.project{
+  margin: 50px 0px;
+  margin-left: 140px;
+  background-color: rgb(42, 2, 60);
+}
+
+.project hr{
+  color:rgb(255, 255, 255);
+  width: 400px;
+  margin: 10px auto;
+
+}
+
+.project h2{
+  font-weight: bold;
+  color: rgb(214, 250, 216);
+  
+}
+
+.textup{
+  color: rgb(255, 255, 255);
+}
+
+
+#ads{
+  margin: 0px 0px 0px 0px;
+}
+
+
+#ads .card-notify-badge{
+  position: absolute;
+  left: -8px;
+  top:0px;
+  background-color: rgb(0, 9, 6);
+  text-align: center;
+  border-radius: 30px 30px 30px 30px;
+  color: rgb(255, 255, 255);
+  padding:5px 10px;
+  font-size: 29px;
+}
+.project .card{
+  width: 100%;
+  overflow:hidden;
+  background-color: rgb(203, 243, 246);
+}
+.project .card img{
+  height:250px;
+  width: 100%;
+}
+
+.card-detail-badge{
+  background-color: rgb(53, 1, 67);
+  text-align: center;
+  border-radius: 50px 50px 50px 50px;
+  color: rgb(255, 255, 255) !important;
+  font-size: 19px;
+  padding: 5px 10px;
+}
+.card-image-overly{
+  font-size: 40px;
+}
+.project .card:hover{
+  background-color: rgb(95, 244, 110);
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  transition: all 1s ease;
+
+}
+
+.card-image-overly span{
+  display: inline-block;
+  margin-left: 5px;
+  color: rgb(49, 5, 5);
+}
+
+
+.ad-btn{
+  text-transform: uppercase;
+  width: 150px;
+  height: 40px;
+  display: block;
+  text-align: center;
+  background-color: rgb(45, 3, 58);
+  color: white;
+  border-radius: 80px;
+  font-size: 16px;
+  line-height: 35px;
+  text-decoration: none;
+  margin: 20px auto 20px auto;
+  overflow: hidden;
+  position: relative;
+
+
+}
+
+.hi-baby{
+  font-size: 900 !important;
+}
+
+.ad-btn:hover{
+  background-color: white;
+  color: rgb(45, 3, 58);
+  border: 2px solid rgb(44, 1, 57);
+  transition: all 0.5s ease;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+
+@media(max-width:600px){
+  .project{
+    margin: 0;
+    padding: 0;
+    margin-top: 50px;
+  }
+  .project hr{
+    width: 280px;
+
+  }
+  .project .card{
+    margin-top: 30px;
+  }
+}
