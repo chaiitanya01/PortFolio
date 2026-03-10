@@ -30,7 +30,7 @@ const projects = () => {
                   doctor appointment system
                 </h5>
               </div>
-              <a className="ad-btn" href="https://doctor-appointment-system-1-ixeo.onrender.com">View</a>
+              <a className="ad-btn" href="https://doctor-appointment-system-ugx5.onrender.com">View</a>
               <a className="ad-btn" href="https://github.com/chaiitanya01/Doctor-Appointment-System.git">Source Code</a>
             </div>
           </div>
